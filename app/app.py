@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Ruta para el endpoint GET
 @app.route('/saludo', methods=['GET'])
 def saludo():
-    return jsonify({'mensaje': 'Oh death, become my blade once more'}), 200
+    return jsonify({'mensaje': 'the dark soul'}), 200
 
 # Ejecución de la app
 if __name__ == '__main__':
